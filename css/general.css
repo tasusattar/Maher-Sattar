@@ -1,47 +1,27 @@
-.navigation {
+html, body{
   margin: 0;
-  background: deepskyblue;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
 
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+.vol{
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+#front{
   display: flex;
-
-  -webkit-flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-
-.navigation a:hover {
-  background: black;
-}
-
-.home{
-  display: flex;
-  justify-content: flex-start;
-  width: 50%;
-  /*flex-basis: 0;*/
-}
-
-.directories{
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  padding: 0 2em 0;
-}
-
-#home{
-  /*display: none;*/
-}
-
-#maintitile{
-
+#name{
+  margin-left: -30em;
 }
 
 ul{

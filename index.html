@@ -6,12 +6,16 @@
   <meta charset="utf-8">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Set Favicon -->
+  <link rel="icon" type="img/png" href="content/favic.png">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
 
   <link type="text/css" rel="stylesheet" href="css/general.css" media="screen,projection">
+
+  <link type="text/css" rel="stylesheet" href="css/nav_bar.css" media="screen,projection">
 
   <link type="text/css" rel="stylesheet" href="css/social_buttons.css" media="screen,projection">
 
@@ -22,17 +26,28 @@
 <body>
 
   <div class="navigation">
+    <!-- The navigation bar on top -->
     <div class="home">
-      <div id="home"><a href="www.google.com">Maher Sattar</a></div>
+      <div class="hoverable" id="home"><a href="#front">Maher Sattar</a></div>
     </div>
 
     <div class="directories">
-      <div><a href="www.google.com">Work</a></div>
-      <div><a href="www.google.com">Contact</a></div>
+      <div class="hoverable"><a href="#work">Work</a></div>
+      <div class="hoverable"><a href="#first_name">Contact</a></div>
     </div>
   </div>
 
-  <div id="maintitle">Maher Sattar</div>
+  <div class="vol">
+    <!-- the floating volume button -->
+    <a class="btn-floating btn-small waves-effect waves-light red">
+      <i class="material-icons">volume_up</i>
+    </a>
+  </div>
+
+  <div id="front">
+    <!-- the opening page -->
+    <div class="hide-on-small-only" id="name">Maher Sattar</div>
+  </div>
 
   <div>
     <!-- The video roll section -->
@@ -40,12 +55,12 @@
 
   </div>
 
-  <div>
+  <div id="work">
     <!-- The section with the Print work list  -->
     <div>Print</div>
 
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="http://www.nytimes.com/2016/07/20/world/asia/bangladesh-dhaka-attacks-isis.html">New York Times: Bangladesh, Blaming Local Groups For Attacks, Seeks Suspects Tied To ISIS</a></li>
         <li><a href="http://www.nytimes.com/2016/07/07/world/asia/amid-crackdown-isis-warns-of-new-attacks-in-bangladesh.html?_r=0">New York Times: Amid Crackdown, ISIS Warns Of New Attacks</a></li>
         <li><a href="http://www.nytimes.com/2016/07/09/world/asia/man-survives-terrorist-attack-but-is-arrested-as-a-suspect.html">New York Times: Man Survives Terrorist Attack, But Is In Custody As A Suspect</a></li>
@@ -55,7 +70,7 @@
     </div>
 <!-- Provide some space -->
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="http://www.aljazeera.com/indepth/features/2013/03/2013328132714178410.html">Al Jazeera: Dogmeat Trafficking Disgusts Health Experts</a></li>
         <li><a href="http://www.aljazeera.com/indepth/features/2013/09/2013918102223875988.html">Al Jazeera: Sex Trade Victims Struggle To Reintegrate</a></li>
         <li><a href="http://www.aljazeera.com/indepth/features/2014/02/thailand-democrats-always-bridesmaid-201422142415565380.html">Al Jazeera: Thailand's Democrats - Always The Bridesmaids​</a></li>
@@ -63,7 +78,7 @@
     </div>
 <!-- Provide some space -->
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="http://www.pri.org/stories/2012-01-04/bangladesh-india-border-wall-death">PRI/GlobalPost: Bangladesh-India Border - The Wall Of Death</a></li>
         <li><a href="http://www.pri.org/stories/2012-05-01/bangladeshs-garment-workers-brave-deadly-fires-make-luxury-american-clothing">PRI/GlobalPost: Worked Over Pt 1 - Garment Workers Brave Deadly Fires</a></li>
         <li><a href="http://www.pri.org/stories/2012-05-14/mysterious-murder-bangladeshi-labor-activist">PRI/GlobalPost: Worked Over Pt 2 - The Mysterious Murder Of A Bangladeshi Labor Activist</a></li>
@@ -77,7 +92,7 @@
     <div>Video</div>
 
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="https://www.youtube.com/watch?v=f1PZdVdVA4A">AJ+: The Secret Of Bangkok's AIrplane Graveyard</a></li>
         <li><a href="https://www.youtube.com/watch?v=MrCdK50mShU">AJ+: Muay Thai - Banned from Fighting Boys</a></li>
         <li><a href="https://www.youtube.com/watch?v=BTY6FL48yJs">PBS: Targeting The Taliban</a></li>
@@ -87,7 +102,7 @@
     </div>
 <!-- Provide some space -->
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="https://www.youtube.com/watch?v=GkqXnPhWAEg">Al Jazeera: Burn Victims Struggle To Survive</a></li>
         <li><a href="https://www.youtube.com/watch?v=O3sfLQp7jFU">Al Jazeera: BANGLAMETH - Border Business Booming</a></li>
         <li><a href="https://www.youtube.com/watch?v=uam4cCTsXNQ">Al Jazeera: Blind Fisherman's Climate Change Struggle</a></li>
@@ -97,7 +112,7 @@
     </div>
 <!-- Provide some space -->
     <div>
-      <ul>
+      <ul class="browser-default">
         <li><a href="https://vimeo.com/13282900">TOAD</a></li>
       </ul>
     </div>
@@ -112,7 +127,7 @@
       </div>
 
       <div>
-        <img id="me" src="content/Lion.jpg" alt="My Face">
+        <img class="hoverable" id="me" src="content/Lion.jpg" alt="My Face">
       </div>
 
     <div class="icons">
