@@ -13,6 +13,8 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
 
+  <link type="text/css" rel="stylesheet" href="css/parallax.css" media="screen,projection">
+
   <link type="text/css" rel="stylesheet" href="css/general.css" media="screen,projection">
 
   <link type="text/css" rel="stylesheet" href="css/nav_bar.css" media="screen,projection">
@@ -27,6 +29,11 @@
 
 <body>
 
+  <div class="parallax-effect">
+
+  <div id="grp1" class="parallax_group">
+
+  <div class="parallax_layer parallax_layer-fore">
   <div class="navigation">
     <!-- The navigation bar on top -->
     <div class="home">
@@ -34,7 +41,7 @@
     </div>
 
     <div class="directories">
-      <div class="hoverable"><a href="#work">Work</a></div>
+      <div class="hoverable"><a href="#grp5">Work</a></div>
       <div class="hoverable"><a href="#first_name">Contact</a></div>
     </div>
   </div>
@@ -48,16 +55,19 @@
     </a>
   </div>
 
-  <div id="front">
+  </div>
+
+  <div id="front" class="parallax_layer parallax_layer-base">
+
     <!-- the opening page -->
     <div class="hide-on-small-only" id="name">Maher Sattar</div>
 
     <div class="front_slideshow">
       <!-- front slideshow menu -->
-        <img id="slide1" class="mySlides" src="content/img_slideshow/5xyvalkjxwy-alok-shenoy.jpg">
-        <img id="slide2" class="mySlides" src="content/img_slideshow/8ni422pxhhw-aravind-kumar.jpg">
-        <img id="slide3" class="mySlides" src="content/img_slideshow/adl1z8_ngy-stacy-wyss.jpg">
-        <img id="slide4" class="mySlides" src="content/img_slideshow/isi02d_qx_w-himanshu-singh-gurjar.jpg">
+      <img id="slide1" class="mySlides" src="content/img_slideshow/5xyvalkjxwy-alok-shenoy.jpg">
+      <img id="slide2" class="mySlides" src="content/img_slideshow/8ni422pxhhw-aravind-kumar.jpg">
+      <img id="slide3" class="mySlides" src="content/img_slideshow/adl1z8_ngy-stacy-wyss.jpg">
+      <img id="slide4" class="mySlides" src="content/img_slideshow/isi02d_qx_w-himanshu-singh-gurjar.jpg">
 
     </div>
 
@@ -71,14 +81,43 @@
     <script type="text/javascript" src="js/slideshow.js"></script>
 
   </div>
+  </div>
 
-  <div>
-    <!-- The video roll section -->
-    <!-- <iframe src="https://www.youtube.com/embed/xTxSwy0pwTI?autoplay=1" width="90%" height="550em" allowfullscreen="allowfullscreen"></iframe> -->
+  <div id="grp2" class="parallax_group">
+    <!-- First Background Image -->
+    <div class="parallax_layer parallax_layer-base"></div>
+    <div class="backgrnd parallax_layer parallax_layer-back" style="background: black;">
+      <!-- <img src="content/img_slideshow/whwybmtn3_0-brooke-cagle.jpg"> -->
+    </div>
 
   </div>
 
-  <div id="work">
+  <div id="grp3" class="parallax_group">
+    <div class="video parallax_layer parallax_layer-fore">
+      <!-- The video roll section -->
+      <iframe src="https://www.youtube.com/embed/xTxSwy0pwTI?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
+      <!-- width="90%" height="550em" -->
+    </div>
+
+    <div class="parallax_layer parallax_layer-base" style="background-color: #0d0d0d"></div>
+  </div>
+
+<div id="grp4" class="parallax_group">
+  <!-- 2nd Background Image -->
+    <div class="backgrnd parallax_layer parallax_layer-deep" style="background: blue;">
+      <!-- <img src="content/img_slideshow/tb3bx2b9cmu-jayden-yoon.jpg"> -->
+    </div>
+    <div class="parallax_layer parallax_layer-back"></div>
+    <div class="parallax_layer parallax_layer-base"></div>
+</div>
+
+  <div id="grp5" class="parallax_group">
+
+  <div class="parallax_layer parallax_layer-base" style="background-color:#f2f2f2"></div>
+
+  <div id="work" class="parallax_layer parallax_layer-fore">
+
+    <div>
     <!-- The section with the Print work list  -->
     <div>Print</div>
 
@@ -139,10 +178,21 @@
         <li><a href="https://vimeo.com/13282900">TOAD</a></li>
       </ul>
     </div>
+    </div>
+  </div>
+</div>
+
+<div id="grp6" class="parallax_group">
+  <!-- Third Background Image -->
+  <div class="backgrnd parallax_layer parallax_layer-back" style="background: green;">
+    <!-- <img src="content/img_slideshow/jq8b_0hba1o-peter-hershey.jpg"> -->
   </div>
 
+  <div class="parallax_layer parallax_layer-base"></div>
+</div>
 
-  <div class="end">
+<div id="grp7" class="parallax_group">
+  <div class="end parallax_layer parallax_layer-base">
 
     <div class="social">
       <div style="padding-bottom: 4em;">
@@ -234,6 +284,12 @@
     </div>
     <!-- form section ends here -->
     </div>
+
+  </div>
+
+  </div>
+
+  <!-- end parallax-effect -->
   </div>
 
   <!-- link all js -->

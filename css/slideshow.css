@@ -1,3 +1,10 @@
+/*.front_slideshow{
+  height: 100%;
+  width: 100%;
+}
+/*this will stretch the slideshow imgs*/
+
+
 .mySlides{
   display: none;
   height: 100%;
