@@ -7,8 +7,8 @@ html, body{
 
 .vol{
   position: fixed;
-  bottom: 1em;
-  right: 1em;
+  bottom: 1.5em;
+  right: 1.5em;
 }
 
 #front{
@@ -22,6 +22,7 @@ html, body{
 
 #name{
   margin-left: -30em;
+  position: absolute;
 }
 
 ul{

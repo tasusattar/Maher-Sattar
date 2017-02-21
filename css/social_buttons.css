@@ -17,6 +17,7 @@
 }
 
 .icons {
+  opacity: 0.5;
   padding-bottom: 3em;
   display: flex;
   flex-direction: row;
@@ -64,29 +65,55 @@
 }
 
 .youtube{
+  padding-top: 0.7em;
   position: absolute;
 }
 
-.social_icon img#fbbw:hover{
+.social_icon img#fbc{
   opacity: 0;
 }
 
-.social_icon img#tweetbw:hover{
+.social_icon img#tweetc{
   opacity: 0;
 }
 
-.social_icon img#instbw:hover{
+.social_icon img#instc{
   opacity: 0;
 }
 
-.social_icon img#libw:hover{
+.social_icon img#lic{
   opacity: 0;
 }
 
-.social_icon img#vimbw:hover{
+.social_icon img#vimc{
   opacity: 0;
 }
 
-.social_icon img#ytbw:hover{
+.social_icon img#ytc{
   opacity: 0;
+}
+
+/*On hover*/
+.social_icon img#fbc:hover{
+  opacity: 1;
+}
+
+.social_icon img#tweetc:hover{
+  opacity: 1;
+}
+
+.social_icon img#instc:hover{
+  opacity: 1;
+}
+
+.social_icon img#lic:hover{
+  opacity: 1;
+}
+
+.social_icon img#vimc:hover{
+  opacity: 1;
+}
+
+.social_icon img#ytc:hover{
+  opacity: 1;
 }
