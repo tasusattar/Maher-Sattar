@@ -29,11 +29,6 @@
 
 <body>
 
-  <div class="parallax-effect">
-
-  <div id="grp1" class="parallax_group">
-
-  <div class="parallax_layer parallax_layer-fore">
   <div class="navigation">
     <!-- The navigation bar on top -->
     <div class="home">
@@ -55,10 +50,13 @@
     </a>
   </div>
 
-  </div>
+  <div class="parallax-effect">
 
-  <div id="front" class="parallax_layer parallax_layer-base">
+  <div id="grp1" class="parallax_group">
 
+  <div class="parallax_layer parallax_layer-base">
+
+    <div id="front" >
     <!-- the opening page -->
     <div class="hide-on-small-only" id="name">Maher Sattar</div>
 
@@ -79,15 +77,19 @@
     </div>
 
     <script type="text/javascript" src="js/slideshow.js"></script>
+  </div>
 
   </div>
+
+  <div class="bordered parallax_layer parallax_layer-back"></div>
   </div>
 
   <div id="grp2" class="parallax_group">
     <!-- First Background Image -->
-    <div class="parallax_layer parallax_layer-base"></div>
-    <div class="backgrnd parallax_layer parallax_layer-back" style="background: black;">
-      <!-- <img src="content/img_slideshow/whwybmtn3_0-brooke-cagle.jpg"> -->
+    <div class="parallax_layer parallax_layer-deep" style="background: black;">
+      <div class="backgrnd">
+        <!-- <img src="content/img_slideshow/whwybmtn3_0-brooke-cagle.jpg"> -->
+      </div>
     </div>
 
   </div>
@@ -96,24 +98,23 @@
     <div class="video parallax_layer parallax_layer-fore">
       <!-- The video roll section -->
       <iframe src="https://www.youtube.com/embed/xTxSwy0pwTI?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-      <!-- width="90%" height="550em" -->
     </div>
 
-    <div class="parallax_layer parallax_layer-base" style="background-color: #0d0d0d"></div>
+    <div class="bordered parallax_layer parallax_layer-back"></div>
   </div>
 
 <div id="grp4" class="parallax_group">
   <!-- 2nd Background Image -->
-    <div class="backgrnd parallax_layer parallax_layer-deep" style="background: blue;">
-      <!-- <img src="content/img_slideshow/tb3bx2b9cmu-jayden-yoon.jpg"> -->
+    <div class="parallax_layer parallax_layer-deep" style="background: blue;">
+      <div class="backgrnd">
+        <!-- <img src="content/img_slideshow/tb3bx2b9cmu-jayden-yoon.jpg"> -->
+      </div>
     </div>
-    <div class="parallax_layer parallax_layer-back"></div>
-    <div class="parallax_layer parallax_layer-base"></div>
-</div>
+  </div>
 
   <div id="grp5" class="parallax_group">
 
-  <div class="parallax_layer parallax_layer-base" style="background-color:#f2f2f2"></div>
+  <div class="bordered parallax_layer parallax_layer-base" style="background-color:#f2f2f2; border-color:#bfbfbf;"></div>
 
   <div id="work" class="parallax_layer parallax_layer-fore">
 
@@ -184,15 +185,19 @@
 
 <div id="grp6" class="parallax_group">
   <!-- Third Background Image -->
-  <div class="backgrnd parallax_layer parallax_layer-back" style="background: green;">
-    <!-- <img src="content/img_slideshow/jq8b_0hba1o-peter-hershey.jpg"> -->
+  <div class="parallax_layer parallax_layer-deep" style="background: green;">
+    <div class="backgrnd">
+      <!-- <img src="content/img_slideshow/jq8b_0hba1o-peter-hershey.jpg"> -->
+    </div>
   </div>
 
-  <div class="parallax_layer parallax_layer-base"></div>
 </div>
 
 <div id="grp7" class="parallax_group">
-  <div class="end parallax_layer parallax_layer-base">
+
+  <!-- <div class="bordered parallax_layer parallax_layer-base" style="background: #e6e6e6; border-color:#bfbfbf;"></div> -->
+
+  <div id="end" class="parallax_layer parallax_layer-base">
 
     <div class="social">
       <div style="padding-bottom: 4em;">

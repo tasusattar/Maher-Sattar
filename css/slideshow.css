@@ -1,16 +1,21 @@
-/*.front_slideshow{
-  height: 100%;
-  width: 100%;
+.front_slideshow{
+  /*height: auto;
+  width: inherit;/*/
+  padding: 2vh 2vw;
 }
 /*this will stretch the slideshow imgs*/
 
 
 .mySlides{
   display: none;
-  height: 100%;
+  height: inherit;
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-style: groove;
+  border-width: thin;
+  border-collapse: collapse;
+  border-color: #999999;
 }
 
 .slideButtons{
@@ -25,24 +30,26 @@
 
   position: absolute;
   width: 70%;
-  height: 5em;
+  height: 5vh;
   bottom: 0;
+
+  z-index: 150;
 }
 
 .slidebtn{
-  padding: 0 1em;
-  width: 2em;
-  height: 2em;
+  padding: 0 2vh;
+  width: 4vh;
+  height: 4vh;
   border: none;
 }
 
 .circle{
-  border-style: outset;
+  border-style: groove;
   border-width: thin;
   border-color: #f2f2f2;
 
-  width: 1em;
-  height: 1em;
+  width: 2vh;
+  height: 2vh;
   border-radius: 50%;
 
   background: inherit;
